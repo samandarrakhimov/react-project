@@ -1,0 +1,66 @@
+.list-group-item{
+    padding: 1.5rem;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
+}
+.list-group-item-label{
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 700;
+    width: 540px;
+    height: 35px;
+    line-height: 35px;
+}
+.list-group-item-input{
+    border: 0;
+    width: 60px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 35px;
+}
+.btn-cookie{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: rgb(201, 166, 26);
+}
+.btn-trash{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: rgb(201, 43, 26);
+}
+.fa-star{
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: rgb(201, 175, 26); 
+    transform: translateX(30px);
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+.list-group-item.favorite .list-group-item-label{
+    color: rgb(201, 166, 26);
+}
+.list-group-item.favorite .list-group-item-input{
+    color: rgb(201, 166, 26);
+}
+.list-group-item.like .fa-star{
+    transform: translateX(0);
+    opacity: 1;
+}

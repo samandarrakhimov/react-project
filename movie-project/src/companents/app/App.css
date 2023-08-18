@@ -1,0 +1,21 @@
+
+
+.box{
+    height: 100vh;
+    background-color: #fff;
+    color: black;
+}
+.content{
+    width: 1000px;
+    min-height: 700px;
+    margin:  0 auto;
+    padding: 5rem 0;
+    
+}
+.search-panel{
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
+}
